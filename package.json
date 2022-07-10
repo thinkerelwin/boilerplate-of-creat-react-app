@@ -16,9 +16,9 @@
     "test": "react-scripts test",
     "test:lint-staged": "react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
-    "lint:js": "eslint *.{js,jsx,ts,tsx} --fix",
-    "lint:css": "stylelint *.{css,scss,sass} --fix",
-    "lint:format": "prettier *.{js,jsx,ts,tsx,json,css,scss,md} --write --ignore-unknown",
+    "lint:js": "eslint '**/*.{js,jsx,ts,tsx}' --fix",
+    "lint:css": "stylelint '**/*.{css,scss,sass}' --fix",
+    "lint:format": "prettier '**/*.{js,jsx,ts,tsx,json,css,scss,md}' --write --ignore-unknown",
     "type-check": "tsc -p .",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "prepare": "husky install"
